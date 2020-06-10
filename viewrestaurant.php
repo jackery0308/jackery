@@ -23,10 +23,10 @@
     while ($row = sqlsrv_fetch_array($getResults, SQLSRV_FETCH_ASSOC))
     {
       echo "<tr>";
-      echo "<td>.$row['r_id']."</td>";
-      echo "<td>.$row['r_name']."</td>";
-      echo "<td>.$row['r_address']."</td>";
-      echo "<td>.$row['r_phone']."</td>";
+      echo "<td>".$row['r_id']."</td>";
+      echo "<td>".$row['r_name']."</td>";
+      echo "<td>".$row['r_address']."</td>";
+      echo "<td>".$row['r_phone']."</td>";
       echo "</tr>";
     }
     sqlsrv_free_stmt($getResults);

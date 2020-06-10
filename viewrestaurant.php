@@ -1,7 +1,7 @@
 <?php
 $serverName = "jackerydb.database.windows.net";
 $connectionOptions = array{
-"Database" => "jackeryDb",
+"Database" => "jackerydb",
 "Uid" => "jackery",
 "PwD" => "Jiashen123");
 //Establishes  the connection

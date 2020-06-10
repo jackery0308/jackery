@@ -12,3 +12,4 @@ if (!$conn)
   }
   echo "Db Server: Connected!!!!";
   }
+?>
